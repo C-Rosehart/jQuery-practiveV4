@@ -11,5 +11,5 @@ function greeting(event) {
   event.preventDefault();
   let firstName = document.getElementById("name-id").value.split(" ")[0];
   document.getElementsByClassName("results")[0].textContent = firstName;
-  console.log(`It's so nice to meet you, ${firstName}`);
+  console.log(`It's so nice to meet you ${firstName}`);
 }
