@@ -1,5 +1,3 @@
-"use strict";
-
 function getFirstName() {
   console.log(document.getElementById("name-id").value);
   document
